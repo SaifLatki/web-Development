@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(70, 67, 67);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.topnavbar {
+    background-color: rgb(29, 42, 49);
+    overflow: hidden;
+    padding: 15px 0;
+    display: flex; 
+    justify-content: right; 
+}
+.shopName {
+    background-color: rgb(29, 42, 49);
+    overflow: hidden;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-start; 
+    text-align: left;
+}
+
+.shopName p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 450px; 
+}
+
+
+.topnavbar a {
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+    justify-content: space-between;
+}
+
+.topnavbar a.active {
+    background-color: #546885; 
+    color: white;
+}
+
